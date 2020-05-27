@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body, html{
+	width: 100%;
+	height: 100%;
+}
+.div-top{
+    width:100%;
+    height:10%;
+    background-color:#FFB6C1;
+}
+.div-left{
+    float:left;
+    width:10%;
+    height:90%;
+    overflow: hidden;
+    clear:both;
+}
+.div-right{
+    overflow: hidden;
+    background-color:#D8BFD8;
+    height:90%;
+}
+.button-logout{
+    width:80px;
+    height:25px;
+    float:right;
+}
+.refresh-click{
+    width:80px;
+    height:30px;
+    float:left;
+}
+.update-click{
+    width:20px;
+    color:red;
+}
+.table-1{
+     border:1px solid;
+     margin:auto;
+     width:50%;
+     border-collapse: collapse;
+}
+td{
+    border:1px solid black;
+    text-align:center;
+}
+.textarea-1{
+    width:99.5%;
+    height:300px;
+    overflow-y:scroll;
+}
+.dialog1{
+	width:300px;
+	height:200px;
+	color:#ff0052;
+}
+.button-close{
+    width:80px;
+    height:25px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.td-1{
+	text-align:right;
+}

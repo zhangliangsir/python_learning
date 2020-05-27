@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="30">  -->
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="static/css/theme.css" />      
+    <script type="text/javascript" src="../static/js/style.js"></script>
+</head>
+<body>
+<div class="div-top">
+    <h1 align="center">hello {{name}}</h1>
+    <h4 align="center">{{data}}</h4>
+    <button class="refresh-click" onclick="click_hello()">Refresh</button>
+    <a href="logout" style="float:right">LogOut</a>
+</div>
+
+<div id="left" class="div-left">
+    <iframe src="directory" width="100%" height="100%" frameborder="0" scrolling="auto">
+    您的浏览器不支持iframe，请升级
+    </iframe>
+</div>
+<div id="right" class="div-right">
+    <iframe src="/user" width="100%" height="100%" frameborder="0" scrolling="auto">
+
+    </iframe>
+</div>
+</body>
+</html>

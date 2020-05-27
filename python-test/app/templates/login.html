@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<form name="login" action="/login" method="post">
+    <h1>Hello {{name}}, please login by:</h1><br/>
+    <h3>{{prompt}}</h3>
+    <input type="text" name="user" placeholder="input userName" autocomplete="off"/><br/><br/>
+    <input type="text" name="password" placeholder="input passwd" autocomplete="off"/><br/><br/>
+    <button>submit</button>
+</form>
+{% endblock %}

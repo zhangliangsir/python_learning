@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+<h1 style="text-align:center">Please update user information</h1>
+<div align="center">
+    <form action="/update_user" method="POST" >
+    	<table>
+    		<tr>
+    			<td class="td-1">user:</td>
+    			<td><input type="text" name="name" value={{data[0]}} readonly="true" autocomplete="off"></td>
+    		</tr>
+    		<tr>
+    			<td class="td-1">age:</td>
+    			<td><input type="numberNew" name="age" value={{data[1]}} autocomplete="off"/></td>
+    		</tr>
+    		<tr>
+    			<td class="td-1">passwd:</td>
+    			<td><input type="text" name="passwd" value={{data[2]}} autocomplete="off"></td>
+    		</tr>
+    		<tr>
+    			<td class="td-1">address:</td>
+    			<td><input type="text" name="address" value={{data[3]}} autocomplete="off"></td>
+    		</tr>
+ 			<tr>
+    			<td><button>submit</button></td>
+    			<td><button onclick="window.close();">quit</button></td>
+    		</tr>
+    	</table>
+	</form>
+</div>
+</body>
+</html>

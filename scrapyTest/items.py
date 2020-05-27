@@ -16,5 +16,3 @@ class TutorialItem(scrapy.Item):
     name = scrapy.Field()
     birthdate = scrapy.Field()
     bio = scrapy.Field()
-    
-    
