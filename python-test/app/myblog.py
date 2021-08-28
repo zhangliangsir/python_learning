@@ -157,7 +157,7 @@ def init_log():
         os.makedirs(os.path.dirname(logfile))
 
     server_log = TimedRotatingFileHandler(logfile,'D')
-    server_log.setLevel(logging.DEBUG)
+    server_log.setLevel(logging.INFO)
     server_log.setFormatter(logging.Formatter('%(asctime)s %(levelname)s: %(message)s'))
     
     app.logger.addHandler(server_log)

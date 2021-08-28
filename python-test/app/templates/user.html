@@ -20,11 +20,11 @@ $(document).ready(function(){
         var userName = td.eq(0).html();
 
         if (clickName == "delete"){
-        	var url="http://10.80.20.63:5000/delete/"+userName
+        	var url="http://127.0.0.1:5000/delete/"+userName
         	window.location.replace(url)
         	
         }else if(clickName == "update"){
-        	var url="http://10.80.20.63:5000/update/"+userName
+        	var url="http://127.0.0.1:5000/update/"+userName
         	window.location.replace(url)
         }else{
         	alert("you shoule print button")

@@ -11,7 +11,8 @@ class sqlUtil():
     def getSession():
         
         # 初始化数据库连接:
-        engine = create_engine('mysql://root:123456@127.0.0.1:3306/mysql_test')
+        #engine = create_engine("mysql://root:123456@127.0.0.1:3306/mysql_test")
+        engine = create_engine("mysql+pymysql://root:123456@127.0.0.1:3306/mysql_test")
         # 创建DBSession类型:
         session = sessionmaker(bind=engine)
 

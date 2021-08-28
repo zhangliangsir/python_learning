@@ -181,12 +181,12 @@ if  __name__  ==  '__main__':
     batch_query()
     
     #insert
-#     data=["hello",20,"hello","hangzhou"]
-#     insert(data)
+    data=["hello",20,"hello","hangzhou"]
+    insert(data)
     
     #update
-#     data=[21,"admin","guangzhou","admin"]
-#     update(data)
+    # data=[21,"admin","guangzhou","admin"]
+    # update(data)
     
     #delete
 #     delete("hello")

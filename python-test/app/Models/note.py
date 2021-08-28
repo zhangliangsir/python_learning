@@ -14,7 +14,7 @@ class Note(Base):
     # 表的结构:
     id = Column(INT, primary_key=True)
     name = Column(String(20))
-    date = Column(DateTime(20))
+    date_time = Column(DateTime(20))
     data = Column(String(10000))
     
     @staticmethod

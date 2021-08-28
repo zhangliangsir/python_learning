@@ -35,7 +35,7 @@ function click_add(){
 function click_insert(){
     clickName="";
 	<!-- window.open('http://10.80.20.63:5000/insert_web','insert_web');-->
-	window.location.replace('http://10.80.20.63:5000/insert_web')
+	window.location.replace('http://127.0.0.1:5000/insert_web')
 }
 function click_update(){
     clickName="update"
